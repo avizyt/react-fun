@@ -7,16 +7,36 @@
     pointer-events: none;
 }
 
+h2,
+h3,
+p {
+    color: aqua;
+}
+
+body {
+    background: rgb(117, 199, 236);
+}
+div {
+    padding: 10px;
+}
+
 .heading {
     background-color: antiquewhite;
+    border-radius: 20px;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #333;
+    color: #383636;
+    /*padding-left: 5px;
+    */
     margin-bottom: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
